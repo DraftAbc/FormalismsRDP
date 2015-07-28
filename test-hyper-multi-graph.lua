@@ -1,6 +1,6 @@
 --test_hyper_multi_graph
 
-package.path = package.path .. ";/home/alexis/Documents/Stage_M1_01-06-15/CosyVerif/library/src/?.lua"
+package.path = package.path .. ";/home/Documents/CosyVerif/library/src/?.lua"
 
 local Repository = require "cosy.repository"
 local graph = require "graph"
