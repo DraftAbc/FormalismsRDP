@@ -33,7 +33,9 @@ repository.hyper_graph = {
 		end
 	},
 	
-	vertices = {},
+	places = {},
+        transitions = {},
+
 }
 
 return repository.hyper_graph
