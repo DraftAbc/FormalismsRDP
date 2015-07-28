@@ -8,7 +8,7 @@ Repository.options (repository).create = function () return {} end
 Repository.options (repository).import = function () return {} end
 
 repository.valuation = {
-  avaluation_type = {
+    valuation_type = {
     symbol_type = {},
     symbols = {},
   },
