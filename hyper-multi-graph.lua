@@ -11,12 +11,13 @@ local _ = Repository.placeholder(repository)
 
 repository.hyper_multi_graph = {
 	hyper_multi_graph_type = {
-		vertex_type = {},
-		
+		transition_type = {},
+		place_type = {},
+
 		edge_type = {
 			arrow_type = {
 				value_type = place_type,
-        value_type = place_type,
+                                value_type = transition_type,
 			}, 
 			arrows = {
 			  ["cosy:meta"] = {
